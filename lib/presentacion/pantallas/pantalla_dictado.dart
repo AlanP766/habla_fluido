@@ -17,7 +17,6 @@ class _EstadoPantalla extends State<PantallaDictado> {
 
   @override
   void dispose() {
-    _texto.dispose();
     vm.dispose();
     super.dispose();
   }
